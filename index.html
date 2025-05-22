@@ -39,8 +39,8 @@ index.html
             });
             function makeGeoJSON(csvData) {
                 csv2geojson.csv2geojson(csvData, {
-                    latfield: 'latitude', // replace with the actual column name for latitude in your CSV
-                    lonfield: 'longitude', // replace with the actual column name for longitude in your CSV
+                    latfield: 'Latitude', // replace with the actual column name for latitude in your CSV
+                    lonfield: 'Longitude', // replace with the actual column name for longitude in your CSV
                     delimiter: ','
                 }, function (err, geojson) {
                     map.on('load', function () {
